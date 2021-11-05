@@ -2,7 +2,7 @@
 
 ## Assignment
 
-## Try the following exercises (and don’t forget to use console.log()!):
+Try the following exercises (and don’t forget to use console.log()!):
 
 1. Add 2 numbers together! (just type console.log(23 + 97) into your html file)
 2. Add a sequence of 6 different numbers together.
