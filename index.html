@@ -7,9 +7,91 @@
     <title>Javascript Fundamentals Part I</title>
 </head>
 <body>
-    <h1>F12 to see console</h1>
+    <h1>F12 -> Press "Console" tab</h1>
     <script>
-        
+        // let a = 10;
+        // console.log("Exercise 1 ", 452 + 564);
+        // console.log("Exercise 2 ", 452 + 564 + 21 + 56 + 57 + 8 + 3 + 67);
+        // console.log("Exercise 3 ", (4 + 6 + 9) / 77);
+        // console.log("Exercise 4 ", a);
+        // console.log("Exercise 4.3 ", 9 * a);
+        // let b = 7 * a; 
+        // console.log("Exercise 4.4 ", b); 
+        // const MAX = 57;
+        // const ACTUAL = MAX - 13;
+        // const PERCENTAGE = ACTUAL / MAX
+        // console.log("Exercise 5 ", PERCENTAGE);
+        //console.log(5 > 4); //true correct
+        //console.log("apple" > "pineapple"); //false correct
+        //console.log("2" > "12"); //false incorrect true
+        //console.log(undefined == null); // true //correct
+        //console.log(undefined === null); //false //correct
+        //console.log(null == "\n0\n"); //true incorrect false
+        //console.log(null === "\n0\n"); // false correct
+        //while-for
+        //What is the last value alerted for this code? Why?
+        //The last value alerted is 1. When we go through the loop, i is decremented
+        //until i = 0 
+        // let i = 3;
+        // while (i) {
+        //     alert(i--);
+        // }
+        //Which values does the while loop show? 4
+        //The prefix form ++i:
+        // let i = 0;
+        // while (++i < 5) {
+        //     alert(i);
+        // }
+        //Prefix, i is incremented and then returns the new value is compared:
+        //++0 -> 1 1 < 5 alert(1)
+        //++1 -> 2 2 < 5 alert(2)
+        //++2 -> 3 3 < 5 alert(3)
+        //++3 -> 4 4 < 5 alert(4) 
+        //++4 -> 5 5 < 5 body not executed
+        //The postfix form i++:
+        // let i = 0;
+        // while (i++ < 5) {
+        //     alert(i);
+        // }
+        //postfix, i is incremented and then returns the old value to be compared
+        //0++ -> 1 0 < 5 alert(1)
+        //1++ -> 2 1 < 5 alert(2)
+        //2++ -> 3 2 < 5 alert(3)
+        //3++ -> 4 3 < 5 alert(4)
+        //4++ -> 5 4 < 5 alert(5)
+        // //Output even numbers in a loop
+        // for (let i = 0; i <= 10; i++) {
+        //     if (i % 2 == 0) {
+        //         alert(i);
+        //     }
+        // }
+        //2, 4, 6, 8, 10
+        //Replace "for" with "while"
+        //for loop
+        // for (let i = 0; i < 3; i++) {
+        //     alert( `number ${i}!` );
+        // }
+        //while loop
+        // let i = 0;
+        // while(i < 3) {
+        //     alert(`number ${i}!`);
+        // }
+        //Repeat until the input is correct
+        // let num;
+        // do {
+        //     num = prompt("Enter a number greater than 100:");
+        // } while(num <= 100)
+        //Output prime numbers
+        // let n = prompt("Input a n value:")
+        // outerLoop: for(let i = 2; i <= n; i++) {
+        //     for (let j = 2; j < i; j++) {
+        //         if (i % j == 0) {
+        //             continue outerLoop;
+        //         }
+        //     }
+        //     alert(i);
+        // }
+
     </script>
 </body>
 </html>
